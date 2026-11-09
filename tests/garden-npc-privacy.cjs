@@ -1,0 +1,18 @@
+'use strict';
+const fs=require('fs'),assert=require('assert'),vm=require('vm');
+const src=fs.readFileSync('public/game/npcs.js','utf8');
+const match=src.match(/function isGardenSceneHidden\(n,player\)\{[\s\S]*?\n\}/);
+assert(match,'Garden scene filter missing');
+const ctx={ANguyetStory:{getStage:()=> 'garden'},Quest2:{isVillageRuined:()=>false},Math};
+vm.createContext(ctx);vm.runInContext(match[0]+'\nthis.filter=isGardenSceneHidden;',ctx);
+const npc={x:2400,y:1010},player={x:2400,y:730};
+assert.strictEqual(ctx.filter(npc,player),true,'Remove crowd under flower garden');
+assert.strictEqual(ctx.filter({x:2490,y:370},player),false,'Keep chief outside flower garden');
+assert.strictEqual(ctx.filter(npc,{x:750,y:600}),false,'Do not hide NPC while far away');
+ctx.ANguyetStory.getStage=()=> 'locked';
+assert.strictEqual(ctx.filter(npc,player),false,'Keep normal village life before story');
+ctx.ANguyetStory.getStage=()=> 'farewell';
+assert.strictEqual(ctx.filter(npc,player),true,'Keep scene private through farewell');
+ctx.Quest2.isVillageRuined=()=>true;
+assert.strictEqual(ctx.filter(npc,player),false,'Ruins stage does not change original NPC logic');
+console.log('PASS GARDEN NPC PRIVACY: scenery, quest states, and interaction filter');

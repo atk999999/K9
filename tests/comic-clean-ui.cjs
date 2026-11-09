@@ -1,0 +1,18 @@
+const assert = require('node:assert/strict');
+const fs = require('node:fs');
+const path = require('node:path');
+const comic = fs.readFileSync(path.join(__dirname, '../public/game/quest3-comic.js'), 'utf8');
+const quest = fs.readFileSync(path.join(__dirname, '../public/game/quest3.js'), 'utf8');
+const css = fs.readFileSync(path.join(__dirname, '../public/game/style.css'), 'utf8');
+assert(!comic.includes('quest3-comic-top-bar'));
+assert(!comic.includes('quest3-comic-auto-btn'));
+assert(!comic.includes('quest3-comic-skip-btn'));
+assert(!comic.includes('quest3-comic-badge'));
+assert(!css.includes('.quest3-comic-top-bar'));
+assert(quest.includes('autoAdvance: false'));
+assert(!quest.includes('activeComic && activeComic.autoAdvance'));
+assert(!quest.includes("e.key === 'Escape'"));
+assert(comic.includes('quest3-memory-block'));
+assert(comic.includes('quest3-comic-step'));
+assert(comic.includes('ctrl.advanceComicPanel()'));
+console.log('✓ Comic: đã bỏ tiêu đề trên, tự động và bỏ qua; giữ nội dung và chuyển từng khung.');

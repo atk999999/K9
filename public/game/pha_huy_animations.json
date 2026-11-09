@@ -1,0 +1,59 @@
+{
+  "version": "1.1",
+  "frameSize": {
+    "width": 160,
+    "height": 160
+  },
+  "frameCount": 6,
+  "fps": 9,
+  "loop": false,
+  "assets": {
+    "wardrobe": {
+      "image": "tu_quan_ao_pha_huy.webp",
+      "frames": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "states": [
+        "hairline_cracks",
+        "deep_cracks",
+        "doors_forced_open",
+        "drawer_displaced",
+        "frame_collapsing",
+        "debris"
+      ],
+      "finalFrame": 5,
+      "onComplete": "destroyed"
+    },
+    "bed": {
+      "image": "giuong_pha_huy.webp",
+      "frames": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "states": [
+        "small_cracks",
+        "frame_splitting",
+        "footboard_breaks",
+        "collapsing",
+        "major_wreckage",
+        "debris"
+      ],
+      "finalFrame": 5,
+      "onComplete": "destroyed"
+    }
+  },
+  "notes": [
+    "Tủ và giường sử dụng sprite vỡ nát dựng mới, 6 frame ngang (mỗi frame 160x160), nền trong suốt.",
+    "Đã thay thế trực tiếp spritesheet dùng bởi tieu-pham-home.js; chỉ thay hình ảnh, không thay đổi va chạm hay logic Liệp Ma.",
+    "Giữ nguyên hoạt ảnh va chạm/âm thanh và chum nước."
+  ]
+}

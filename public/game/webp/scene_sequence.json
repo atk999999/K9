@@ -1,0 +1,192 @@
+{
+  "description": "17 scenes cropped from the 2 supplied originals, without any AI re-drawing",
+  "scenes": [
+    {
+      "index": 1,
+      "title": "Ngủ trong nhà",
+      "file": "webp/01.webp",
+      "original_source": "01_ngu.webp",
+      "size": [
+        509,
+        327
+      ],
+      "source_untouched": true
+    },
+    {
+      "index": 2,
+      "title": "Bị tiếng động đánh thức",
+      "file": "webp/02.webp",
+      "original_source": "02_thuc_giac.webp",
+      "size": [
+        502,
+        324
+      ],
+      "source_untouched": true
+    },
+    {
+      "index": 3,
+      "title": "Bóng Liệp Ma ngoài cửa sổ kín",
+      "file": "webp/03.webp",
+      "original_source": "03_bong_cua_so.webp",
+      "size": [
+        587,
+        349
+      ],
+      "source_untouched": true
+    },
+    {
+      "index": 4,
+      "title": "Chui vào chum nước",
+      "file": "webp/04.webp",
+      "original_source": "04_chui_chum.webp",
+      "size": [
+        431,
+        347
+      ],
+      "source_untouched": true
+    },
+    {
+      "index": 5,
+      "title": "Liệp Ma phá tường",
+      "file": "webp/05.webp",
+      "original_source": "05_pha_tuong.webp",
+      "size": [
+        558,
+        327
+      ],
+      "source_untouched": true
+    },
+    {
+      "index": 6,
+      "title": "Nín thở trong chum",
+      "file": "webp/06.webp",
+      "original_source": "06_trong_chum.webp",
+      "size": [
+        434,
+        328
+      ],
+      "source_untouched": true
+    },
+    {
+      "index": 7,
+      "title": "Liệp Ma bỏ đi",
+      "file": "webp/07.webp",
+      "original_source": "07_quai_roi_di.webp",
+      "size": [
+        550,
+        472
+      ],
+      "source_untouched": true
+    },
+    {
+      "index": 8,
+      "title": "Đêm lặng xuống",
+      "file": "webp/08.webp",
+      "original_source": "08_dem_tan.webp",
+      "size": [
+        508,
+        472
+      ],
+      "source_untouched": true
+    },
+    {
+      "index": 9,
+      "title": "Bước ra khỏi nhà",
+      "file": "webp/09.webp",
+      "original_source": "09_ra_khoi_nha.webp",
+      "size": [
+        376,
+        360
+      ],
+      "source_untouched": true
+    },
+    {
+      "index": 10,
+      "title": "Làng hoang tàn",
+      "file": "webp/10.webp",
+      "original_source": "10_lang_hoang_tan.webp",
+      "size": [
+        862,
+        360
+      ],
+      "source_untouched": true
+    },
+    {
+      "index": 11,
+      "title": "Thất thần tuyệt vọng",
+      "file": "webp/11.webp",
+      "original_source": "11_tuyet_vong.webp",
+      "size": [
+        455,
+        302
+      ],
+      "source_untouched": true
+    },
+    {
+      "index": 12,
+      "title": "Gọi tìm A Nguyệt",
+      "file": "webp/12.webp",
+      "original_source": "12_tim_a_nguyet.webp",
+      "size": [
+        784,
+        302
+      ],
+      "source_untouched": true
+    },
+    {
+      "index": 13,
+      "title": "Ruy băng trên đất",
+      "file": "webp/13.webp",
+      "original_source": "13_ruy_bang_dat.webp",
+      "size": [
+        250,
+        300
+      ],
+      "source_untouched": true
+    },
+    {
+      "index": 14,
+      "title": "Nhặt ruy băng",
+      "file": "webp/14.webp",
+      "original_source": "14_tay_nhat_ruy_bang.webp",
+      "size": [
+        213,
+        302
+      ],
+      "source_untouched": true
+    },
+    {
+      "index": 15,
+      "title": "Đào đất làm mộ",
+      "file": "webp/15.webp",
+      "original_source": "14_dao_mo.webp",
+      "size": [
+        804,
+        300
+      ],
+      "source_untouched": true
+    },
+    {
+      "index": 16,
+      "title": "Quỳ trước hơn 50 ngôi mộ",
+      "file": "webp/16.webp",
+      "original_source": "15_quy_truoc_mo.webp",
+      "size": [
+        730,
+        511
+      ],
+      "source_untouched": true
+    },
+    {
+      "index": 17,
+      "title": "Rời làng",
+      "file": "webp/17.webp",
+      "original_source": "16_roi_lang.webp",
+      "size": [
+        516,
+        511
+      ],
+      "source_untouched": true
+    }
+  ]
+}

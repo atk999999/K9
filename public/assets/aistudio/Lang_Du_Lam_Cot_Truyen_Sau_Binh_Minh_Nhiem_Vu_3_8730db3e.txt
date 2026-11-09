@@ -1,0 +1,193 @@
+LÀNG DU LÃM – KỊCH BẢN SAU BÌNH MINH
+NHIỆM VỤ 3: TÌM KIẾM NGƯỜI SỐNG SÓT
+Định dạng: TXT UTF-8 | Dùng làm tài liệu triển khai Google AI Studio
+
+I. BỐI CẢNH VÀ NGUYÊN TẮC
+- Thời điểm: 06:00, sau khi Tiểu Phàm sống sót qua Nhiệm vụ 2 – Huyết Dạ Yêu Ảnh.
+- Người chơi chỉ sống sót qua đêm nếu đã chọn trốn trong chum nước bên trong nhà.
+- Tiểu Phàm bước ra khỏi chum, mở cửa nhà, nhìn thấy Làng Du Lãm hoang tàn.
+- Sử dụng MAP HOANG TÀN CÓ SẴN, không vẽ lại hoặc đổi tọa độ, hitbox, cầu, đường đi.
+- Lửa lớn và tiếng Liệp Ma đã biến mất; chỉ còn bụi tro, tàn tích, gió và khói tàn rất nhẹ nếu phù hợp.
+- Không có dân làng đáp lời. Chưa khẳng định toàn bộ dân làng bị nuốt chửng; đó là suy đoán trong tuyệt vọng của Tiểu Phàm.
+- Chưa xác nhận A Nguyệt đã chết: ruy băng xanh là manh mối, không phải bằng chứng tử vong.
+- Các mộ dựng cho hơn 50 dân làng là mộ an táng nếu có di hài, hoặc mộ tưởng niệm nếu không tìm được di hài. Không đưa A Nguyệt vào danh sách người đã chết.
+
+II. KÍCH HOẠT NHIỆM VỤ
+Điều kiện: quest2_survived = true; time >= 06:00; player_exits_home = true.
+Màn hình thoáng giữ góc quay Tiểu Phàm bước qua ngưỡng cửa. Nhạc đêm ngừng; nhạc “Lời Hẹn Giữa Tro Tàn” vào rất nhẹ.
+
+LỜI DẪN:
+“Bình minh đến. Nhưng ngôi làng mà Tiểu Phàm từng biết đã không còn.”
+
+TIỂU PHÀM:
+“Trưởng làng…?”
+“Có ai nghe thấy ta không?”
+“Mọi người… các người ở đâu rồi?”
+
+THÔNG BÁO: NHIỆM VỤ 3 – TÌM KIẾM NGƯỜI SỐNG SÓT
+Mục tiêu: Kiểm tra 4 địa điểm (0/4).
+
+III. GIAI ĐOẠN 1 – TÌM NGƯỜI SỐNG SÓT (0/4)
+Người chơi tự do di chuyển, không tự động dịch chuyển, không khóa điều khiển lâu.
+Bốn điểm có dấu nhiệm vụ nhỏ, không che map:
+
+1. NHÀ TRƯỞNG LÀNG
+Cửa gãy, nền nhà ngổn ngang, không có tiếng người.
+Tiểu Phàm: “Trưởng làng! Là ta đây!”
+“…Không ai trả lời.”
+Cập nhật 1/4.
+
+2. QUẢNG TRƯỜNG KHẢO NGHIỆM
+Nơi từng tập trung dân làng nay vắng lặng, chỉ còn dấu vết hỗn loạn.
+Tiểu Phàm: “Hôm qua… mọi người còn đứng ở đây.”
+“Chẳng lẽ chỉ sau một đêm…”
+Cập nhật 2/4.
+
+3. KHU NHÀ DÂN / ĐƯỜNG LÀNG
+Vài cánh cửa đổ, vết cào, vệt máu nhỏ và đồ dùng rơi vãi.
+Tiểu Phàm: “Có ai còn sống không!? Xin hãy lên tiếng!”
+“Chỉ có tiếng gió…”
+Cập nhật 3/4.
+
+4. VƯỜN HOA PHÍA ĐÔNG
+Nơi Tiểu Phàm và A Nguyệt từng tâm sự, trao vòng chỉ đỏ. Giàn hoa dập nát, không còn bóng người.
+Tiểu Phàm: “A Nguyệt… ngươi đã từng đợi ta ở đây.”
+“Ngươi đi đâu rồi?”
+Cập nhật 4/4.
+
+Không bắt buộc phải đi theo thứ tự, nhưng chỉ phát cảnh kết khi đã kiểm tra đủ cả bốn địa điểm. Lưu tiến độ từng điểm ngay khi kiểm tra.
+
+IV. GIAI ĐOẠN 2 – SỰ THẬT TRONG IM LẶNG
+Điều kiện: survivor_search_count = 4.
+Camera chậm rãi hướng vào Tiểu Phàm, không cắt sang cảnh không liên quan.
+
+TIỂU PHÀM:
+“Không… không thể nào…”
+“Không còn một ai…”
+“Những vết cào, những mảnh áo rách…”
+“Họ… đều bị lũ yêu ma nuốt chửng rồi sao…?”
+
+Dừng 2–3 giây, giảm nhạc gần như im lặng.
+
+TIỂU PHÀM:
+“A Nguyệt…”
+“Không… nàng nhất định vẫn còn sống!”
+“A Nguyệt! Ngươi ở đâu?!”
+
+THÔNG BÁO: Mục tiêu mới – TÌM KIẾM A NGUYỆT.
+Không hiện lời khẳng định A Nguyệt tử vong.
+
+V. GIAI ĐOẠN 3 – DẢI RUY BĂNG XANH
+Người chơi lần theo manh mối đến gần CỔNG LÀNG.
+Trên đất có dải ruy băng xanh hoa trắng của A Nguyệt, vương bụi và một vệt máu nhỏ.
+Điểm tương tác chỉ kích hoạt khi người chơi đến đủ gần và bấm xem/nhặt.
+
+TIỂU PHÀM:
+“Đây là…”
+“Ruy băng của A Nguyệt…”
+“Hôm qua nàng còn cười với ta…”
+“Không… A Nguyệt, ngươi vẫn còn sống, đúng không?”
+
+Tiểu Phàm cúi nhặt ruy băng, tay run. Camera cận vật phẩm, sau đó cận biểu cảm.
+
+VẬT PHẨM NHẬN: RUY BĂNG XANH CỦA A NGUYỆT
+Loại: Kỷ vật / Manh mối.
+Mô tả: “Dải ruy băng nhuốm bụi tro, từng buộc trên mái tóc của A Nguyệt. Số phận chủ nhân vẫn chưa rõ.”
+Vòng chỉ đỏ đã được nhận ở Nhiệm vụ 1 (nếu người chơi tham gia tuyến vườn hoa) vẫn giữ nguyên.
+Trạng thái A Nguyệt = MẤT TÍCH, SINH TỬ CHƯA RÕ.
+
+VI. GIAI ĐOẠN 4 – AN TÁNG CỐ NHÂN
+Nhiệm vụ tiếp nối: AN TÁNG CỐ NHÂN.
+Mục tiêu: Chuẩn bị đất, gỗ và dựng bia tưởng niệm cho hơn 50 người làng.
+Thiết kế gameplay: KHÔNG bắt người chơi bấm đào 50 lần.
+- Một lần tương tác chuẩn bị khu đất / thu gom gỗ.
+- Một hoạt cảnh ngắn thể hiện thời gian trôi qua, các ụ đất và bia tên lần lượt xuất hiện.
+- Bia có tên dân làng phù hợp với dữ liệu NPC nếu có; nếu không có dữ liệu đầy đủ, dùng dòng tưởng niệm chung, KHÔNG tự bịa 50 tên.
+- Ngôi mộ không di hài được ghi là “Mộ tưởng niệm”.
+- Giữ nguyên map nền; các ụ đất và bia là đối tượng/overlay mới có va chạm phù hợp, không chặn đường chính.
+
+LỜI DẪN:
+“Tiểu Phàm gom những mảnh gỗ còn sót lại, đào từng nấm đất… Dẫu không tìm thấy đủ di hài, hắn vẫn muốn mọi người có một nơi để được tưởng nhớ.”
+
+CẢNH QUỲ DƯỚI CÂY ANH ĐÀO, TRƯỚC HƠN 50 NGÔI MỘ:
+Tiểu Phàm ôm dải ruy băng xanh.
+
+TIỂU PHÀM:
+“Ta đã trở về… nhưng chẳng còn ai đợi nữa.”
+“Trưởng làng… mọi người… xin hãy yên nghỉ.”
+“A Nguyệt… ta chưa biết ngươi đang ở đâu.”
+“Nếu ngươi vẫn còn sống, dù phải đi đến chân trời góc bể… ta nhất định sẽ tìm thấy ngươi.”
+
+Nhạc buồn giữ nhỏ, chờ vài giây, cánh hoa rơi chậm. Không để bia mộ của A Nguyệt xuất hiện.
+
+VII. GIAI ĐOẠN 5 – RỜI LÀNG
+Sau khi an táng, mục tiêu: TIẾN ĐẾN CỔNG LÀNG.
+Người chơi tự điều khiển Tiểu Phàm đến cổng. Khi tương tác cổng, mở hoạt cảnh ngắn.
+
+LỜI DẪN:
+“Làng Du Lãm chỉ còn lại phía sau. Trong tay hắn là dải ruy băng xanh, trên cổ tay là sợi chỉ đỏ của lời hẹn năm nào.”
+
+TIỂU PHÀM:
+“Ta sẽ sống.”
+“Ta phải tìm ra sự thật… và tìm được A Nguyệt.”
+
+Tiểu Phàm bước qua cổng làng hướng về khu rừng.
+LƯU Ý TÍCH HỢP: Nếu Nhiệm vụ cũ đã có sự kiện Liệp Ma truy đuổi ở cổng, cần nối hoặc điều chỉnh sự kiện đó trước khi triển khai đoạn kết này; không để hai cinematic xung đột hoặc tự ý xóa Nhiệm vụ cũ.
+
+VIII. THỨ TỰ PHÁT MOTION COMIC
+Chỉ sử dụng panel có sẵn đã cắt từ hai ảnh gốc; không vẽ lại hình ảnh chỉ để đổi thứ tự.
+- Bước ra khỏi nhà: panel bình minh/ngưỡng cửa.
+- Ngắm làng đổ nát: panel toàn cảnh.
+- Tìm người sống sót: gameplay thực tế; nếu thiếu hình cho từng điểm, dùng cảnh trong map thay vì phát lặp panel khác.
+- Không ai sống sót / tuyệt vọng: panel cận biểu cảm.
+- Gọi A Nguyệt: panel chạy tìm/hoảng hốt.
+- Ruy băng trên đất: panel vật phẩm trên đất.
+- Nhặt ruy băng: panel bàn tay nhặt ruy băng (tách riêng).
+- Đào đất/lập mộ: panel đào đất.
+- Quỳ trước hơn 50 mộ: panel dưới cây anh đào.
+- Rời làng: panel bước qua cổng.
+
+Phát theo mốc hoàn thành, KHÔNG phát toàn bộ ảnh 2 ngay lúc bước ra khỏi nhà.
+Chế độ phát tự động và chạm tiếp tục; đã xem được bỏ qua. Sau mỗi đoạn trả quyền điều khiển.
+
+IX. ÂM THANH – HIỆU ỨNG
+- Khi mở cửa: gió yếu, im ắng, tiếng bước chân trên đất vụn.
+- Nhạc nền: “Lời Hẹn Giữa Tro Tàn” OGG ở âm lượng nền thấp.
+- Khi gọi A Nguyệt: hạ nhạc, nhấn khoảng lặng sau tiếng gọi.
+- Khi tìm thấy ruy băng: gió nhẹ, không dùng hiệu ứng phép thuật (ruy băng là vật bình thường).
+- Khi dựng mộ: tiếng xẻng/đất nhẹ, thời gian trôi qua bằng chuyển cảnh.
+- Khi rời làng: nhạc hạ dần rồi fade out.
+- Không phát tiếng GRR lúc bình minh trừ khi có sự kiện quái vật mới thực sự xảy ra.
+
+X. CỜ LƯU GAME / CHỐNG KẸT
+quest2_survived = true
+quest3_started = true/false
+quest3_search_elder = true/false
+quest3_search_square = true/false
+quest3_search_houses = true/false
+quest3_search_garden = true/false
+quest3_survivor_search_complete = true/false
+quest3_ay_nguyet_search_started = true/false
+quest3_blue_ribbon_collected = true/false
+quest3_memorial_complete = true/false
+quest3_village_departed = true/false
+ay_nguyet_status = missing_unknown
+
+- Mỗi sự kiện chỉ nhận một lần; lưu game và tải lại phải tiếp tục đúng bước.
+- Không khóa điều khiển sau khi đóng/bỏ qua cinematic.
+- Vật phẩm ruy băng không được nhân đôi khi tải lại.
+- NPC có liên quan không tự xuất hiện trên map hoang tàn sau khi đã bị ẩn.
+- Không bắt buộc chạy từ đầu Nhiệm vụ 2 nếu người chơi tải lại bản lưu lúc bình minh.
+
+XI. TIÊU CHÍ KIỂM THỬ
+[ ] Sống sót và bước ra khỏi nhà mới kích hoạt Nhiệm vụ 3.
+[ ] Tìm đủ 4 điểm không bị kẹt đường/cầu.
+[ ] Chỉ khi đủ 4 điểm mới xuất hiện mục tiêu tìm A Nguyệt.
+[ ] Nhặt ruy băng đúng gần cổng, chỉ một lần.
+[ ] A Nguyệt giữ trạng thái mất tích, không xuất hiện bia mộ xác nhận tử vong.
+[ ] Hơn 50 ụ đất và bia không chặn đường hoặc gây tụt FPS trên Android.
+[ ] Có thể bỏ qua cinematic nhưng vẫn cập nhật cờ nhiệm vụ tương ứng.
+[ ] Cảnh cổng làng không xung đột nhiệm vụ Liệp Ma truy đuổi cũ.
+[ ] Map ảnh gốc và map hoang tàn không bị thay thế/vẽ lại.
+
+KẾT THÚC – KỊCH BẢN CHỐT CHO GIAI ĐOẠN SAU BÌNH MINH.

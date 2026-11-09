@@ -1,0 +1,8 @@
+BO 17 PANEL CAT TU HAI ANH TRUYEN GOC
+
+- Khong ve lai, khong thay doi net nhan vat, mau, bo cuc, hay noi dung cac khung.
+- 17 khung thay vi 16: canh dai ruy bang va canh ban tay nhat ruy bang duoc tach rieng.
+- Cat theo ranh gioi nghieng, cac goc ngoai duoc giu trong suot.
+- scene_sequence.json co thu tu 01-17.
+- Hinh thieu neu can day du nhiem vu 3: (a) tim kiem tung dia diem trong lang (b) khac ten len bia mo. Hai canh nay CHUA DUOC VE THEM, vi ban da yeu cau khong ve lai noi dung dang co.
+- Khung 15 da co nhieu ngoi mo trong luc Tiểu Phàm dao dat: do la tinh tiet trong anh goc, giu nguyen.

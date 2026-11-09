@@ -1,0 +1,15 @@
+{
+  "id": "liep_ma_01",
+  "name": "Liệp Ma",
+  "level": 1,
+  "realm": "Tương đương Luyện Khí kỳ",
+  "hp": 1000,
+  "maxHp": 1000,
+  "demonicEnergy": 100,
+  "attack": 50,
+  "relativeScaleToHuman": 2.0,
+  "movement": "bipedal",
+  "canDetectBySmell": true,
+  "animationsFile": "animations.json",
+  "spriteFile": "liep-ma-sprites.webp"
+}

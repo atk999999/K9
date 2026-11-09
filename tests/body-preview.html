@@ -1,0 +1,7 @@
+<!doctype html><html lang="vi"><head><meta charset="utf-8"><title>Body chung - Làng Du Lãm</title><style>html,body{background:#152622;color:#f5f0df;font-family:system-ui;margin:0;padding:0}main{padding:24px}h2{margin:0 0 16px;font-size:20px}canvas{display:block;background:#c5d9c4;border:1px solid #637c70;border-radius:12px;max-width:100%}.note{opacity:.75;font-size:13px}</style></head><body><main><h2>Bản xem trước – Body chung từ Tiểu Phàm</h2><canvas id="c" width="1200" height="420"></canvas><p class="note">Các nhân vật dùng chung hình học Canvas 2D, đổi màu và chi tiết bằng code; không thêm sprite PNG nặng.</p></main><script src="../public/game/tieu-pham.js"></script><script src="../public/game/body-shared.js"></script><script>
+const ctx=document.getElementById('c').getContext('2d');ctx.imageSmoothingEnabled=false;
+const names=['Tiểu Phàm','Trưởng làng','A Huy','A Nguyệt','Lục Nham'];const ids=['tieu_pham','truong','a_huy','a_nguyet','luc_nham'];
+ctx.fillStyle='#b0cda9';ctx.fillRect(0,0,1200,420);
+for(let i=0;i<5;i++){ctx.save();ctx.translate(i*240,0);ctx.fillStyle=i%2?'#c1d5b8':'#d0e0bd';ctx.fillRect(0,0,240,420);ctx.fillStyle='#4d705d';ctx.fillRect(8,363,224,2);ctx.fillStyle='#19382c';ctx.font='bold 17px system-ui';ctx.textAlign='center';ctx.fillText(names[i],120,45);ctx.scale(2.1,2.1);SharedBody.draw(ctx,{x:58,y:169,dir:'down',walk:0},0,ids[i]);ctx.restore()}
+window.isReady=true;
+</script></body></html>

@@ -1,0 +1,185 @@
+LÀNG DU LÃM
+NHIỆM VỤ 2 – HUYẾT DẠ YÊU ẢNH
+TỔNG QUAN CỐT TRUYỆN VÀ GAMEPLAY
+========================================
+
+Thể loại: Kinh dị sinh tồn
+Vị trí: Nhiệm vụ cốt truyện chính thứ 2
+Thời gian: 00:00 – Bình minh (theo giờ trong game)
+
+BỐI CẢNH
+Ngay sau khi Lục Nham đưa A Huy rời Làng Du Lãm, Tiểu Phàm trở về nhà nghỉ ngơi. Nửa đêm, yêu ma bất ngờ tập kích, biến ngôi làng yên bình thành một vùng đất chết.
+
+Mục tiêu chính: Sống sót đến sáng.
+Người chơi vẫn là phàm nhân, không thể chiến đấu với yêu ma. Chỉ có một cách hoàn thành nhiệm vụ: ẨN NÁU TRONG CHUM NƯỚC.
+
+Lục Nham đã ngự kiếm cùng A Huy rời đi quá xa, không nhận được tin báo và không thể đến cứu làng. Không để Lục Nham quay lại cứu viện trong nhiệm vụ này.
+
+========================================
+1. DANH SÁCH 10 PHÂN CẢNH
+========================================
+
+CẢNH 01 – TRỞ VỀ NHÀ NGHỈ NGƠI
+- Tiểu Phàm mệt mỏi sau ngày khảo nghiệm linh căn.
+- Nhiệm vụ yêu cầu trở về nhà và tương tác với giường ngủ.
+- Khi nằm lên giường, bắt đầu chuyển cảnh; không cho kẹt nhân vật trên giường khi kết thúc hoặc thử lại.
+
+CẢNH 02 – NỬA ĐÊM KINH HOÀNG
+- Màn hình tối dần, thời gian chuyển đến 00:00.
+- Tiếng gào thét, kêu cứu, tiếng cửa bị phá và móng vuốt cào vang lên từ bên ngoài.
+- Tiểu Phàm choàng tỉnh.
+
+CẢNH 03 – YÊU MA TIẾP CẬN
+- Một con Liệp Ma cao gấp đôi người thường dừng trước nhà Tiểu Phàm.
+- Nó áp mặt vào khe cửa, hít hà không khí và bắt đầu tìm kiếm người sống.
+- Hoạt ảnh phải cho thấy Liệp Ma di chuyển bằng HAI CHÂN.
+
+CẢNH 04 – LỰA CHỌN SINH TỬ
+Người chơi có 4 lựa chọn:
+1. Chạy ra ngoài xem.
+2. Trốn dưới gầm giường.
+3. Trốn trong tủ.
+4. Trốn vào chum nước.
+
+CẢNH 05 – LIỆP MA SĂN MỒI (CÁC NHÁNH THẤT BẠI)
+- Chạy ra ngoài: thấy làng hoang tàn, bị Liệp Ma phát hiện và truy đuổi; không thể thoát, tử vong.
+- Gầm giường: yêu ma lần theo mùi, từ từ cúi xuống tìm thấy Tiểu Phàm; tử vong.
+- Trong tủ: yêu ma hít hà, tiến sát, giật tung cửa tủ; tử vong.
+- Hoạt ảnh thể hiện cảnh yêu ma vồ, cắn con mồi theo phong cách 2D kinh dị, có thể dùng góc quay khuất để tránh chi tiết quá trực diện.
+- Màn hình kết thúc: “Ngươi đã chết.” Có nút “Thử lại từ lúc tỉnh giấc”.
+
+CẢNH 06 – ẨN NÁU TRONG CHUM NƯỚC
+- Tiểu Phàm chui vào chiếc chum lớn, đậy nắp và để hở khe thở.
+- Nước và bùn ẩm che giấu mùi người sống.
+- Camera có thể đổi sang góc nhìn từ trong chum qua khe nắp.
+
+CẢNH 07 – KHOẢNH KHẮC NGHẸT THỞ
+- Liệp Ma đi vào nhà, đảo quanh và liên tục hít hà.
+- Nó chậm rãi tiến đến chum nước, gõ móng vuốt lên thành chum.
+- Yêu ma cúi đầu ngửi nhiều lần, ở rất sát nơi Tiểu Phàm đang trốn.
+- Không ngửi được khí tức người sống, nó gầm gừ rồi rời đi.
+- Đây là cảnh hồi hộp quan trọng nhất của nhiệm vụ.
+
+CẢNH 08 – ĐÊM DÀI TUYỆT VỌNG
+- Tiểu Phàm tiếp tục ở yên trong chum nước đến bình minh.
+- Tiếng gào thét và kêu cứu bên ngoài dần biến mất.
+- Không tự ý cho người chơi ra khỏi chum trước khi đủ điều kiện sống sót.
+
+CẢNH 09 – BÌNH MINH SAU THẢM HỌA
+- Khi trời sáng, Tiểu Phàm chui ra khỏi chum.
+- Làng Du Lãm đã thành phế tích: nhà sập, cây gãy, cầu hỏng, ruộng héo, vết máu và các mảnh đổ nát.
+- Dùng bản đồ hoang tàn đã thiết kế; không có khói, không có lửa.
+
+CẢNH 10 – KẺ SỐNG SÓT
+- Tiểu Phàm bước ra ngoài, nhận ra ngôi làng đã bị hủy diệt.
+- Hiển thị: “Nhiệm vụ hoàn thành: Huyết Dạ Yêu Ảnh”.
+- Người chơi được tự do điều khiển để tìm đường thoát.
+- Mở đầu tình huống truy đuổi ở cổng làng cho Nhiệm vụ 3.
+
+========================================
+2. LỰA CHỌN VÀ KẾT CỤC
+========================================
+
+Chạy ra ngoài       -> Bị phát hiện, truy đuổi và bắt kịp -> TỬ VONG
+Trốn gầm giường     -> Liệp Ma đánh hơi, tìm thấy         -> TỬ VONG
+Trốn trong tủ       -> Liệp Ma phát hiện, phá cửa tủ      -> TỬ VONG
+Trốn trong chum     -> Nước/bùn che mùi, Liệp Ma bỏ đi    -> SỐNG SÓT
+
+QUY TẮC: Chum nước là cách duy nhất hoàn thành Nhiệm vụ 2.
+Khi chết, người chơi thử lại từ lúc tỉnh giấc, không bị mất dữ liệu Nhiệm vụ 1.
+
+========================================
+3. QUÁI VẬT CHÍNH – LIỆP MA
+========================================
+
+Tên: Liệp Ma
+Cấp: 1
+Cảnh giới: Tương đương Luyện Khí kỳ
+Sinh mệnh: 1.000 HP
+Ma khí: 100
+Tấn công: 50 ATK
+Chiều cao: Gấp đôi người bình thường
+
+Đặc điểm ngoại hình:
+- Lông đen rậm, mắt đỏ, móng vuốt dài.
+- Đi và chạy bằng hai chân, thân người hơi khom.
+- Khả năng đánh hơi, lần dấu, phát hiện và truy đuổi người sống.
+
+Hoạt ảnh đã chuẩn bị trong bộ Liệp Ma:
+- Đứng thở.
+- Đi hai chân.
+- Đánh hơi.
+- Chạy truy đuổi.
+- Vồ và cào.
+- Cắn con mồi.
+- Trúng đòn.
+- Gục ngã.
+
+Bộ thử nghiệm: 8 trạng thái, 48 khung hình. Hoạt ảnh thôn phệ riêng chưa hoàn thiện.
+
+========================================
+4. CHUYỂN ĐỔI BẢN ĐỒ
+========================================
+
+Trước khi ngủ: Bản đồ Làng Du Lãm bình thường.
+Lúc 00:00: Bên ngoài nhà đang xảy ra tập kích.
+Đang ẩn náu: Sử dụng map nội thất nhà Tiểu Phàm, nơi có giường, tủ, chum nước.
+Rạng sáng: Chuyển sang bản đồ làng hoang tàn.
+Sau khi hoàn thành: Giữ trạng thái bản đồ đổ nát.
+
+Yêu cầu đồng bộ:
+- Giữ nguyên kích thước thế giới, tọa độ và vị trí các khu vực chính.
+- Đồng bộ vùng va chạm ở nhà sập, cây đổ, cầu gãy, vật cản mới.
+- Không chỉ thay hình nền khi collision vẫn thuộc bản đồ làng bình thường.
+- Không có hiệu ứng khói hoặc lửa trên map hoang tàn.
+
+========================================
+5. HỘI THOẠI VÀ LỜI DẪN QUAN TRỌNG
+========================================
+
+KHI LÊN GIƯỜNG
+“Một ngày dài cuối cùng cũng kết thúc. Ngươi kéo chăn, nhắm mắt, cố quên đi những lời của tiên sư Lục Nham...”
+
+LÚC NỬA ĐÊM
+“Một tiếng thét thê lương xé toạc màn đêm.”
+“Ngươi bừng tỉnh. Bên ngoài vang lên tiếng gào thét và tiếng móng vuốt cào vào vách gỗ.”
+“Thứ gì đó... đang tiến đến nhà ngươi.”
+
+KHI LIỆP MA TIẾN SÁT CHUM NƯỚC
+“Cộc... cộc...”
+“Móng vuốt gõ nhẹ lên thành chum.”
+“Một hơi thở tanh tưởi phả xuống. Ngươi cắn chặt môi, không dám động đậy.”
+“Nó đang ngửi... ngay phía trên đầu ngươi.”
+
+KHI BƯỚC RA NGOÀI VÀO SÁNG HÔM SAU
+“Ánh bình minh chiếu xuống ngôi làng quen thuộc.”
+“Nhưng tiếng gà gáy, tiếng trẻ nhỏ nô đùa, tiếng người gọi nhau ra đồng... tất cả đều đã biến mất.”
+“Làng Du Lãm... không còn nữa.”
+
+========================================
+6. PHẦN TIẾP THEO – NHIỆM VỤ 3: ĐƯỜNG CÙNG
+========================================
+
+Sau khi hoàn thành Nhiệm vụ 2, Tiểu Phàm tìm đường rời khỏi làng.
+Khi đến gần cổng làng, một con Liệp Ma phát hiện cậu và lập tức truy đuổi.
+Người chơi được điều khiển nhân vật chạy thật, nhưng tốc độ của yêu ma vượt xa người bình thường; cuối cùng vẫn bị bắt kịp.
+
+Đây là sự kiện mở đầu Nhiệm vụ 3. Chưa xác định kết cục sau khi Liệp Ma bắt được Tiểu Phàm.
+
+========================================
+7. YÊU CẦU TRIỂN KHAI VÀ KIỂM THỬ
+========================================
+
+- Tích hợp vào mã nguồn game Làng Du Lãm hiện có; không tạo lại trò chơi.
+- Chỉ kích hoạt Nhiệm vụ 2 sau khi kết thúc Nhiệm vụ 1.
+- Dùng giờ và lịch trong game; không dùng thời gian thực.
+- Tạm khóa điều khiển khi chuyển cảnh, mở lại tại lúc cần chọn hoặc di chuyển.
+- Kết thúc cảnh ngủ và tải lại không làm nhân vật mắc kẹt trên giường.
+- Hoạt ảnh đánh hơi phải diễn ra thực tế, không chỉ là khung thoại mô tả.
+- Mọi lựa chọn thất bại phải đưa về điểm thử lại hợp lệ.
+- Lưu trạng thái đã hoàn thành và trạng thái map hoang tàn sau khi sống sót.
+- Tránh phát lại sự kiện sau khi người chơi đã hoàn thành.
+- Đảm bảo game chạy mượt trên điện thoại Android, ưu tiên asset WebP và Canvas 2D.
+
+KẾT LUẬN
+Nhiệm vụ 2 gồm 10 phân cảnh, 4 lựa chọn sinh tử, 1 con đường sống duy nhất và hai trạng thái thế giới trước/sau thảm họa. Trọng tâm là Liệp Ma đánh hơi trong nhà, cảnh Tiểu Phàm trốn trong chum nước và bình minh trên Làng Du Lãm đổ nát.

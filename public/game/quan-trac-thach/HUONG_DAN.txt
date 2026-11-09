@@ -1,0 +1,21 @@
+QUAN TRAC THACH - GOI TAI NGUYEN WEBP TOI UU
+==========================================
+14 anh WebP rieng, giu nguyen kich thuoc pixel va nen alpha.
+Phu hop React/Vite, Google AI Studio, Android WebView.
+
+NHOM SPRITE
+01: Trieu hoi (anh minh hoa lon)
+02-05: 4 frame lo lung, lap 180-250 ms/frame
+06-09: 4 frame linh khi xoay, lap 100-160 ms/frame
+10: Trang thai cho
+11: Dang khao nghiem
+12: Khong co linh can
+13: Co linh can
+14: Linh can xuat sac
+
+Luu y:
+- Kich thuoc cac sprite khac nhau; can can giua theo tam (center anchor).
+- Khong chen nen/buc be: vien da lo lung tai tam hoa van quang truong.
+- Dung image-rendering: pixelated neu muon giu duong pixel.
+- Trang thai/anh duoc tach tu anh minh hoa tong hop nen mot so sprite co the
+  con vet vien hoac nen mo; nen kiem tra hien thi tren map trong game.

@@ -1,0 +1,23 @@
+{
+  "format": "WebP RGBA",
+  "source": "Cắt từ ảnh mẫu nội thất do người dùng yêu cầu; không tích hợp game",
+  "table": {
+    "file": "ban_go.webp",
+    "static": true
+  },
+  "candle": {
+    "frames": [
+      "nen_01.webp",
+      "nen_02.webp",
+      "nen_03.webp",
+      "nen_04.webp",
+      "nen_05.webp",
+      "nen_06.webp",
+      "nen_07.webp",
+      "nen_08.webp"
+    ],
+    "fps": 7,
+    "loop": true
+  },
+  "note": "Các khung là ảnh tách từ sheet minh họa; nên kiểm tra trực quan viền alpha khi tích hợp."
+}

@@ -1,0 +1,10 @@
+{
+  "asset": "sap_quan_ao",
+  "animation": false,
+  "transparent": true,
+  "files": [
+    "sap_quan_ao_nhe.webp",
+    "sap_quan_ao_ro.webp"
+  ],
+  "usage": "Static sprite; retain existing collision and position in game."
+}

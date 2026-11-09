@@ -1,0 +1,95 @@
+{
+  "version": "1.1-lite",
+  "source": "bộ_sprite_đồ_nội_thất_rpg_cổ_điển.png",
+  "canvas_size": [
+    768,
+    192
+  ],
+  "note": "Chỉ 3 spritesheet; mỗi sheet có 4 khung 192x192, cắt theo JSON. Giữ nguyên trạng thái gốc, chưa có sprite người chui chum hoặc nằm ngủ.",
+  "objects": {
+    "tu_quan_ao": {
+      "sheet": "tu_quan_ao_sheet.webp",
+      "frame_size": [
+        192,
+        192
+      ],
+      "fps": 7,
+      "animation": {
+        "closed": [
+          0
+        ],
+        "open": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "opened": [
+          3
+        ],
+        "close": [
+          3,
+          2,
+          1,
+          0
+        ]
+      }
+    },
+    "chum_nuoc": {
+      "sheet": "chum_nuoc_sheet.webp",
+      "frame_size": [
+        192,
+        192
+      ],
+      "fps": 7,
+      "animation": {
+        "open": [
+          0
+        ],
+        "close_lid": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "closed": [
+          3
+        ],
+        "open_lid": [
+          3,
+          2,
+          1,
+          0
+        ]
+      }
+    },
+    "giuong": {
+      "sheet": "giuong_sheet.webp",
+      "frame_size": [
+        192,
+        192
+      ],
+      "fps": 4,
+      "animation": {
+        "made": [
+          0
+        ],
+        "blanket_pull": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "unmade": [
+          3
+        ],
+        "reset": [
+          3,
+          2,
+          1,
+          0
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,40 @@
+'use strict';
+const assert=require('node:assert/strict');
+const fs=require('node:fs');
+const path=require('node:path');
+const vm=require('node:vm');
+const game=path.join(__dirname,'../public/game');
+const fireText=fs.readFileSync(path.join(game,'fire-fx.js'),'utf8');
+const monsterText=fs.readFileSync(path.join(game,'quest2-render.js'),'utf8');
+const html=fs.readFileSync(path.join(game,'index.html'),'utf8');
+const mapRef=fs.readFileSync(path.join(game,'game.js'),'utf8');
+const fireDraws=[];let stack=0;
+class TestImage{ constructor(){this.complete=true;this.naturalWidth=528;this.naturalHeight=224;} set src(value){this.url=value;} }
+const ctx={save(){stack++;},restore(){stack--;assert(stack>=0)},translate(){},scale(){},
+  fill(){},fillRect(){},beginPath(){},ellipse(){},arc(){},moveTo(){},quadraticCurveTo(){},closePath(){},stroke(){},
+  drawImage(...args){fireDraws.push(args)},createRadialGradient(){return {addColorStop(){}}},createLinearGradient(){return {addColorStop(){}}}};
+const sandbox={Image:TestImage,Math};vm.createContext(sandbox);
+vm.runInContext(fireText+'\n'+monsterText+'\nthis.F=FireFX;this.M=Quest2Render;',sandbox);
+sandbox.F.draw(ctx,10,12,22,1.1,3.4,.8);
+assert(fireDraws.length>=1,'Sprite fire not drawn');
+assert(fireDraws[0][1]>=0 && fireDraws[0][1]<528 && fireDraws[0][2]<224,'Fire frame outside sheet');
+assert.equal(stack,0,'Leaked fire canvas scope');
+fireDraws.length=0;
+sandbox.F.smoke(ctx,10,12,22,1.1,3.4,.8);
+assert.equal(stack,0,'Leaked smoke canvas scope');
+const anims={walk:{row:1,frames:6},run:{row:3,frames:6},idle:{row:0,frames:6}};
+const rt={liepMaLoaded:true,LIEP_MA_IMG:{},LIEP_MA_ANIMS:anims,monster:{action:'walk',frame:0,scale:.52},monsterAlertPulse:0};
+fireDraws.length=0;
+sandbox.M.drawMonster(ctx,100,100,1,0.04,rt);
+assert.equal(fireDraws.length,1,'Stationary walk must not dislocate the feet');
+fireDraws.length=0;
+sandbox.M.drawMonster(ctx,104,102,1,0.09,rt);
+assert(fireDraws.length>=20,'Moving legs not articulated across sprite slices');
+fireDraws.length=0;
+sandbox.M.drawMonster(ctx,104,102,1,0.14,rt);
+assert.equal(fireDraws.length,1,'Feet kept moving despite no actor displacement');
+assert.equal(stack,0,'Leaked monster canvas scope');
+assert(html.indexOf('fire-fx.js')>0 && html.indexOf('fire-fx.js')<html.indexOf('village-raid-fx.js'));
+assert(mapRef.includes("Lang_Du_Lam_Hoang_Tan_Toan_Canh.webp?v=ruins-seamheal02"));
+assert(fs.statSync(path.join(game,'Lang_Du_Lam_Hoang_Tan_Toan_Canh.webp')).size>350000);
+console.log('PASS S9 graphics: fire sprites, smoke, displacement-driven monster gait, static feet at rest, single ruins map and balanced Canvas scopes.');

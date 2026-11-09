@@ -1,0 +1,32 @@
+LÀNG DU LÃM S9 — SỬA 3 LỖI ĐỒ HỌA
+Ngày 09/11/2026
+
+1) Liệp Ma: thay cách vẽ bước chân bằng biến dạng phần chân theo nhịp quãng đường
+   đã di chuyển, không thay ngoại hình gốc của sprite trong hồi ức.
+   Tập tin: public/game/quest2-render.js
+2) Lửa: bộ sprite WebP 12 khung hình lặp, thay lớp lửa hình tam giác/oval cũ.
+   Khói, lửa và đốm tàn dùng chung hệ hiệu ứng.
+   Tập tin: public/game/fire-fx.js, fire-sprite.webp,
+   village-raid-fx.js, ruins-ambient-fx.js.
+3) Nền: khử mép ngang y=1024 trong chính tấm ảnh toàn cảnh, tạo ranh giới
+   chuyển tiếp bất quy tắc (không còn một đường cắt thẳng).
+   Tập tin: Lang_Du_Lam_Hoang_Tan_Toan_Canh.webp
+
+Không thay tên các cờ nhiệm vụ, cấu trúc GameSave, tọa độ nhân vật và
+va chạm. 60 ngôi mộ và ảnh hồi ức không thay đổi.
+
+Kiểm tra:
+- npm test: PASS, gồm kiểm thử phục hồi bản lưu và 12/12 nhánh Quest2.
+- Cú pháp JS: PASS.
+- Kiểm thử giao diện qua Chromium bị môi trường kiểm thử chặn localhost/file.
+  Khi chơi trên điện thoại cần kiểm tra thực tế.
+
+Cách chạy Termux:
+1. Tải ZIP vào Download.
+2. Dừng web đang chạy bằng Ctrl+C.
+3. Chạy:
+   unzip -oq ~/storage/downloads/S9_Fix_LiepMa_Lua_Map.zip -d ~/S9
+   cd ~/S9/Click91-main
+   npx vite --host 0.0.0.0 --port 3001
+4. Mở Chrome: http://127.0.0.1:3001
+5. Tải lại trang; dữ liệu lưu game trên Chrome được giữ nguyên.

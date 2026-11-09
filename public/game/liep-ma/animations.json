@@ -1,0 +1,416 @@
+{
+  "monsterId": "liep_ma_01",
+  "sprite": "liep-ma-sprites.webp",
+  "sheetWidth": 1152,
+  "sheetHeight": 1536,
+  "frameWidth": 192,
+  "frameHeight": 192,
+  "origin": {
+    "x": 0.5,
+    "y": 0.95
+  },
+  "orientation": "side_3_4_right",
+  "animations": {
+    "idle": {
+      "row": 0,
+      "frames": [
+        {
+          "x": 0,
+          "y": 0,
+          "w": 192,
+          "h": 192,
+          "durationMs": 250
+        },
+        {
+          "x": 192,
+          "y": 0,
+          "w": 192,
+          "h": 192,
+          "durationMs": 250
+        },
+        {
+          "x": 384,
+          "y": 0,
+          "w": 192,
+          "h": 192,
+          "durationMs": 250
+        },
+        {
+          "x": 576,
+          "y": 0,
+          "w": 192,
+          "h": 192,
+          "durationMs": 250
+        },
+        {
+          "x": 768,
+          "y": 0,
+          "w": 192,
+          "h": 192,
+          "durationMs": 250
+        },
+        {
+          "x": 960,
+          "y": 0,
+          "w": 192,
+          "h": 192,
+          "durationMs": 250
+        }
+      ],
+      "fps": 4,
+      "loop": true,
+      "label": "Đứng thở"
+    },
+    "walk": {
+      "row": 1,
+      "frames": [
+        {
+          "x": 0,
+          "y": 192,
+          "w": 192,
+          "h": 192,
+          "durationMs": 200
+        },
+        {
+          "x": 192,
+          "y": 192,
+          "w": 192,
+          "h": 192,
+          "durationMs": 200
+        },
+        {
+          "x": 384,
+          "y": 192,
+          "w": 192,
+          "h": 192,
+          "durationMs": 200
+        },
+        {
+          "x": 576,
+          "y": 192,
+          "w": 192,
+          "h": 192,
+          "durationMs": 200
+        },
+        {
+          "x": 768,
+          "y": 192,
+          "w": 192,
+          "h": 192,
+          "durationMs": 200
+        },
+        {
+          "x": 960,
+          "y": 192,
+          "w": 192,
+          "h": 192,
+          "durationMs": 200
+        }
+      ],
+      "fps": 5,
+      "loop": true,
+      "label": "Đi bằng hai chân"
+    },
+    "sniff": {
+      "row": 2,
+      "frames": [
+        {
+          "x": 0,
+          "y": 384,
+          "w": 192,
+          "h": 192,
+          "durationMs": 250
+        },
+        {
+          "x": 192,
+          "y": 384,
+          "w": 192,
+          "h": 192,
+          "durationMs": 250
+        },
+        {
+          "x": 384,
+          "y": 384,
+          "w": 192,
+          "h": 192,
+          "durationMs": 250
+        },
+        {
+          "x": 576,
+          "y": 384,
+          "w": 192,
+          "h": 192,
+          "durationMs": 250
+        },
+        {
+          "x": 768,
+          "y": 384,
+          "w": 192,
+          "h": 192,
+          "durationMs": 250
+        },
+        {
+          "x": 960,
+          "y": 384,
+          "w": 192,
+          "h": 192,
+          "durationMs": 250
+        }
+      ],
+      "fps": 4,
+      "loop": true,
+      "label": "Đánh hơi"
+    },
+    "run": {
+      "row": 3,
+      "frames": [
+        {
+          "x": 0,
+          "y": 576,
+          "w": 192,
+          "h": 192,
+          "durationMs": 111
+        },
+        {
+          "x": 192,
+          "y": 576,
+          "w": 192,
+          "h": 192,
+          "durationMs": 111
+        },
+        {
+          "x": 384,
+          "y": 576,
+          "w": 192,
+          "h": 192,
+          "durationMs": 111
+        },
+        {
+          "x": 576,
+          "y": 576,
+          "w": 192,
+          "h": 192,
+          "durationMs": 111
+        },
+        {
+          "x": 768,
+          "y": 576,
+          "w": 192,
+          "h": 192,
+          "durationMs": 111
+        },
+        {
+          "x": 960,
+          "y": 576,
+          "w": 192,
+          "h": 192,
+          "durationMs": 111
+        }
+      ],
+      "fps": 9,
+      "loop": true,
+      "label": "Chạy truy đuổi"
+    },
+    "attack": {
+      "row": 4,
+      "frames": [
+        {
+          "x": 0,
+          "y": 768,
+          "w": 192,
+          "h": 192,
+          "durationMs": 143
+        },
+        {
+          "x": 192,
+          "y": 768,
+          "w": 192,
+          "h": 192,
+          "durationMs": 143
+        },
+        {
+          "x": 384,
+          "y": 768,
+          "w": 192,
+          "h": 192,
+          "durationMs": 143
+        },
+        {
+          "x": 576,
+          "y": 768,
+          "w": 192,
+          "h": 192,
+          "durationMs": 143
+        },
+        {
+          "x": 768,
+          "y": 768,
+          "w": 192,
+          "h": 192,
+          "durationMs": 143
+        },
+        {
+          "x": 960,
+          "y": 768,
+          "w": 192,
+          "h": 192,
+          "durationMs": 143
+        }
+      ],
+      "fps": 7,
+      "loop": false,
+      "label": "Vồ cào"
+    },
+    "bite": {
+      "row": 5,
+      "frames": [
+        {
+          "x": 0,
+          "y": 960,
+          "w": 192,
+          "h": 192,
+          "durationMs": 125
+        },
+        {
+          "x": 192,
+          "y": 960,
+          "w": 192,
+          "h": 192,
+          "durationMs": 125
+        },
+        {
+          "x": 384,
+          "y": 960,
+          "w": 192,
+          "h": 192,
+          "durationMs": 125
+        },
+        {
+          "x": 576,
+          "y": 960,
+          "w": 192,
+          "h": 192,
+          "durationMs": 125
+        },
+        {
+          "x": 768,
+          "y": 960,
+          "w": 192,
+          "h": 192,
+          "durationMs": 125
+        },
+        {
+          "x": 960,
+          "y": 960,
+          "w": 192,
+          "h": 192,
+          "durationMs": 125
+        }
+      ],
+      "fps": 8,
+      "loop": false,
+      "label": "Cắn"
+    },
+    "hit": {
+      "row": 6,
+      "frames": [
+        {
+          "x": 0,
+          "y": 1152,
+          "w": 192,
+          "h": 192,
+          "durationMs": 111
+        },
+        {
+          "x": 192,
+          "y": 1152,
+          "w": 192,
+          "h": 192,
+          "durationMs": 111
+        },
+        {
+          "x": 384,
+          "y": 1152,
+          "w": 192,
+          "h": 192,
+          "durationMs": 111
+        },
+        {
+          "x": 576,
+          "y": 1152,
+          "w": 192,
+          "h": 192,
+          "durationMs": 111
+        },
+        {
+          "x": 768,
+          "y": 1152,
+          "w": 192,
+          "h": 192,
+          "durationMs": 111
+        },
+        {
+          "x": 960,
+          "y": 1152,
+          "w": 192,
+          "h": 192,
+          "durationMs": 111
+        }
+      ],
+      "fps": 9,
+      "loop": false,
+      "label": "Trúng đòn"
+    },
+    "death": {
+      "row": 7,
+      "frames": [
+        {
+          "x": 0,
+          "y": 1344,
+          "w": 192,
+          "h": 192,
+          "durationMs": 143
+        },
+        {
+          "x": 192,
+          "y": 1344,
+          "w": 192,
+          "h": 192,
+          "durationMs": 143
+        },
+        {
+          "x": 384,
+          "y": 1344,
+          "w": 192,
+          "h": 192,
+          "durationMs": 143
+        },
+        {
+          "x": 576,
+          "y": 1344,
+          "w": 192,
+          "h": 192,
+          "durationMs": 143
+        },
+        {
+          "x": 768,
+          "y": 1344,
+          "w": 192,
+          "h": 192,
+          "durationMs": 143
+        },
+        {
+          "x": 960,
+          "y": 1344,
+          "w": 192,
+          "h": 192,
+          "durationMs": 143
+        }
+      ],
+      "fps": 7,
+      "loop": false,
+      "label": "Gục ngã"
+    }
+  },
+  "qualityNote": "Nhân dạng giữ nguyên theo ảnh hồi ức 05.webp. Idle/walk/sniff được dựng lại từ các khung chuyển động gù thấp của sprite Liệp Ma gốc; attack/bite/hit/death giữ hình thái gốc, bảng màu thống nhất; 8x6 khung 192px."
+}

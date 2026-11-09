@@ -1,0 +1,15 @@
+LIỆP MA — BỘ HOẠT ẢNH PROTOTYPE (GAME LÀNG DU LÃM)
+
+TÀI NGUYÊN:
+- liep-ma-sprites.webp (xem tên chính xác: liep-ma không có khoảng trắng; file thực tế: liep-ma-sprites.webp)
+- animations.json: 8 trạng thái, mỗi trạng thái 6 khung, FPS và tọa độ cắt.
+- monster.json: chỉ số 1000 HP / 100 Ma Khí / 50 ATK.
+- preview.html: mở bằng trình duyệt để thử 8 hoạt ảnh.
+- liep-ma-preview.gif: ảnh động xem nhanh.
+
+KỸ THUẬT:
+- 1152 x 1536 px, 8 hàng x 6 cột, ô 192 x 192 px.
+- Nền trong suốt. Xác định vị trí nhân vật bằng origin (0.5, 0.95).
+- Đứng, đi, đánh hơi, chạy, vồ, cắn, trúng đòn, gục ngã.
+- Tất cả tư thế dựa trên Liệp Ma hai chân. Đây là bản prototype hoạt ảnh. Một số tư thế (chạy/cắn/trúng đòn/chết) được nội suy/biến đổi từ hình nguồn, chưa phải 6 bản vẽ độc lập.
+- Khi đưa vào game cần test va chạm và kích thước theo tỷ lệ 2 lần người thường.

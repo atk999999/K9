@@ -1,0 +1,24 @@
+{
+  "name": "lang-du-lam-aistudio",
+  "version": "1.8.10",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0 --port 3000",
+    "start": "vite --host 0.0.0.0 --port 3000",
+    "build": "vite build",
+    "preview": "vite preview --host 0.0.0.0 --port 3000",
+    "lint": "node tests/a-huy.cjs && node tests/village-upgrade.cjs && node tests/quest1.cjs && node tests/quest2.cjs && node tests/music.cjs && node tests/quest-fixes.cjs && node tests/liep-ma-sfx.cjs && node tests/quest3.cjs && node tests/memorial-ai-flow.cjs && node tests/ruins-ambient-fx.cjs && node tests/camera-nghia-trang.cjs && node tests/s9-visual-regressions.cjs",
+    "test": "node tests/a-huy.cjs && node tests/village-upgrade.cjs && node tests/rain-shelter.cjs && node tests/village-art.cjs && node tests/weather.cjs && node tests/animal-time.cjs && node tests/animals.cjs && node tests/quest1.cjs && node tests/quest2.cjs && node tests/music.cjs && node tests/game-save.cjs && node tests/quest-fixes.cjs && node tests/qa-fixed.cjs && node tests/immersive-ui.cjs && node tests/audio-regressions.cjs && node tests/final-fin01-fin03.cjs && node tests/body-shared.cjs && node tests/a-nguyet-story.cjs && node tests/village-raid-fx.cjs && node tests/liep-ma-sfx.cjs && node tests/quest3.cjs && node tests/memorial-ai-flow.cjs && node tests/ruins-ambient-fx.cjs && node tests/camera-nghia-trang.cjs && node tests/s9-visual-regressions.cjs"
+  },
+  "dependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "vite": "^7.0.0"
+  },
+  "engines": {
+    "node": "^20.19.0 || >=22.12.0"
+  }
+}
